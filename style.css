@@ -1,0 +1,92 @@
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(to right,#ffd1dc,#ffb6c1);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+text-align:center;
+color:#444;
+}
+
+.container{
+  background:rgba(255,255,255,0.6);
+  padding:30px;
+  border-radius:20px;
+  width:300px;
+  box-shadow:0 0 20px rgba(0,0,0,0.1);
+
+  animation: fadein 1.5s ease;
+}
+
+h1{
+ font-size:42px;
+}
+
+p{
+ font-size:18px;
+}
+
+.intro-text {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+border-radius:25px;
+background-color:#ff85a2;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background-color:#ff5c8a;
+box-shadow:0 0 15px #ff85a2;
+}
+
+.section{
+margin-top:50px;
+}
+
+.motivation-img {
+    height:100%;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.motivation-text {
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.section p{
+margin-top:15px;
+font-size:17px;
+line-height:1.7;
+color:#555;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #ff85a2;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5c8a;
+}
