@@ -14,7 +14,7 @@ color:#444;
 .container{
   background:rgba(255,255,255,0.6);
   width:90%;
-  max-width:400px;
+  max-width:350px;
   margin:auto;
   padding:20px;
 }
@@ -55,7 +55,7 @@ margin-top:50px;
 }
 
 .motivation-img {
-    height:100vh;
+    height:500px;
     width: 100%;
     margin-top: 15px;
     border-radius: 15px;
@@ -91,14 +91,15 @@ button:hover {
 }
 
 img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+  width:100%;
+  height:auto;
+  max-width:300px;
+  border-radius: 15px;
 }
 
 @media (max-width: 600px) {
   .container {
-    width: 95%;
+    width:auto;
     padding: 15px;
   }
 
